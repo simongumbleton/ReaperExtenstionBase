@@ -71,7 +71,7 @@
     <Platform>Win32</Platform>
     <ProjectName>ReaperExtensionBase</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -92,7 +92,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="Configuration">
@@ -126,7 +126,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
@@ -248,7 +248,7 @@
     <OutDir>C:\_Reaper_LOCAL\UserPlugins</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\SimonGumbleton\Projects\vcpkg-master\vcpkg-master\installed\x64-windows\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\SimonGumbleton\Projects\vcpkg-master\vcpkg-master\installed\x64-windows\include;D:\Dev\PersonalProjects\ReaperExtenstionBase\ReaperExtensionBase\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\SimonGumbleton\Projects\vcpkg-master\vcpkg-master\installed\x64-windows\lib;$(LibraryPath)</LibraryPath>
     <OutDir>C:\REAPER\UserPlugins</OutDir>
     <IntDir>reaper_simonsreaperplugin.dir\x64\Release\</IntDir>
@@ -669,7 +669,6 @@
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>$(SolutionDir)/Build/x64/Release/reaper_simonsreaperplugin_x64.lib</ImportLibrary>
