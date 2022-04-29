@@ -7,12 +7,24 @@
     <Filter Include="src">
       <UniqueIdentifier>{FB3FB8F2-7BC3-35F6-9E71-2AA7D26FB4C0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\JUCE">
+      <UniqueIdentifier>{dd64509d-7987-4e22-8e45-86fbc591805b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\reaper_plugin.h">
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="include\reaper_plugin_functions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JUCE\AppConfig.h">
+      <Filter>include\JUCE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JUCE\JuceHeader.h">
+      <Filter>include\JUCE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
